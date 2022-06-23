@@ -15,7 +15,7 @@
     - [MySQL](#mysql)
     - [PostgreSQL](#postgresql)
   - [5. Network](#5-network)
-  - [6. 常用工具](#6-常用工具)
+  - [6. Tools](#6-tools)
     - [IDEA](#idea)
     - [SVN](#svn)
     - [Git](#git)
@@ -25,7 +25,7 @@
   - [9. Kafka](#9-kafka)
 - [写在后面](#写在后面)
 
-## 1. Java core
+## [1. Java core](Java_Core/README.md)
 
 ## 2. Algorithms and Data Structures
 
@@ -51,7 +51,11 @@
 
 ## 5. Network
 
-## 6. 常用工具
+## 6. Operating System
+
+### Linux
+
+## 6. Tools
 
 ### IDEA
 
