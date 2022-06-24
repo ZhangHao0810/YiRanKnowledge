@@ -25,7 +25,7 @@
   - [9. Kafka](#9-kafka)
 - [写在后面](#写在后面)
 
-## [1. Java core](Java_Core/README.md)
+## [1. Java core](Java_Core/Java_Core.md)
 
 ## 2. Algorithms and Data Structures
 
