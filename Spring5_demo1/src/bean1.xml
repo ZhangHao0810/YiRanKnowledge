@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--配置User对象创建
+        id：唯一标识
+        class：类全路径-->
+    <bean id="user" class="com.yiran.spring5.User"></bean>
+
+    <!--    用set 方法注入属性-->
+    <bean id="book" class="com.yiran.spring5.Book"> <!--创建对象-->
+        <!--使用property完成属性注入
+            name:类里面属性的名称
+            value:向属性中注入的值
+        -->
+        <property name="bname" value="深入理解JVM"></property>
+        <property name="bauthor" value="ZH"></property>
+    </bean>
+
+
+</beans>

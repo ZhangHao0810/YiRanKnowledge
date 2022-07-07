@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da745a7e-10ec-4c65-b5d8-e49042c9d664" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Core/src/IO/BufferedStream/Array.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Core/src/IO/BufferedStream/Array_Copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Core/src/IO/BufferedStream/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Core/src/IO/BufferedStream/FileToArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Core/src/IO/File/FileDemo.java" afterDir="false" />
+    <list default="true" id="da745a7e-10ec-4c65-b5d8-e49042c9d664" name="Default" comment=".">
+      <change afterPath="$PROJECT_DIR$/Spring5_demo1/Spring5_demo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring5_demo1/src/bean1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring5_demo1/src/com/yiran/spring5/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring5_demo1/src/com/yiran/spring5/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring5_demo1/test/testSpring5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Core/Java_Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Core/Java_Core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Core/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Core/Java_Core.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +18,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,6 +50,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Programming software\Apache\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -88,11 +101,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java_Core/IO" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Program Files/JetBrains/easy_javadoc-1.25.jar" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.star.easydoc.view.CommonConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -106,7 +131,7 @@
       <recent name="IO.File" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="JUnit.testSpring5.testBook1">
     <configuration name="BufferedStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IO.BufferedStream.BufferedStreamDemo" />
       <module name="Java_Core" />
@@ -133,8 +158,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testSpring5.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring5_demo1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testSpring5" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSpring5.testBook1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring5_demo1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testSpring5" />
+      <option name="METHOD_NAME" value="testBook1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testSpring5.testBook1" />
+        <item itemvalue="JUnit.testSpring5.testAdd" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.BufferedStreamDemo" />
       </list>
@@ -153,6 +200,9 @@
       <updated>1655988963069</updated>
       <workItem from="1655988966831" duration="4377000" />
       <workItem from="1656078716788" duration="4441000" />
+      <workItem from="1657072909618" duration="14000" />
+      <workItem from="1657072959888" duration="9356000" />
+      <workItem from="1657153750341" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1655989128396</created>
@@ -230,7 +280,8 @@
     <MESSAGE value="Build the catalog" />
     <MESSAGE value="Create Java Core Chapter" />
     <MESSAGE value="Create Java Core ReadMe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Java Core ReadMe" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
