@@ -1,4 +1,4 @@
-package com.yiran.spring5;
+package com.yiran.spring5.demo;
 
 /**
  * 用户类，演示使用XML 方式进行对象创建。

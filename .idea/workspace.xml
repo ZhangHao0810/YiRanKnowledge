@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da745a7e-10ec-4c65-b5d8-e49042c9d664" name="Default" comment=".">
-      <change afterPath="$PROJECT_DIR$/Spring5_demo1/Spring5_demo1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring5_demo1/src/bean1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring5_demo1/src/com/yiran/spring5/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring5_demo1/src/com/yiran/spring5/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring5_demo1/test/testSpring5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="da745a7e-10ec-4c65-b5d8-e49042c9d664" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring5/doc/Spring5 学习笔记.assets/ApplicationContext的实现类.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring5/doc/Spring5 学习笔记.assets/IOC过程.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring5/doc/Spring5 学习笔记.assets/Spring模块.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring5/doc/Spring5 学习笔记.assets/工厂模式Demo.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring5/doc/Spring5 学习笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring5_demo1/Spring5_demo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring5/Spring5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring5_demo1/src/bean1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring5/src/bean1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring5_demo1/src/com/yiran/spring5/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring5/src/com/yiran/spring5/demo/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring5_demo1/src/com/yiran/spring5/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring5/src/com/yiran/spring5/demo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring5_demo1/test/testSpring5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring5/test/testSpring5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Core/IO/BufferedStream/Array.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Core/IO/BufferedStream/CopyFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Core/IO/BufferedStream/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Core/IO/BufferedStream/FileToArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Core/IO/File/FileDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +168,7 @@
       </method>
     </configuration>
     <configuration name="testSpring5.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring5_demo1" />
+      <module name="Spring5" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="testSpring5" />
       <option name="METHOD_NAME" value="testAdd" />
@@ -169,7 +178,7 @@
       </method>
     </configuration>
     <configuration name="testSpring5.testBook1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring5_demo1" />
+      <module name="Spring5" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="testSpring5" />
       <option name="METHOD_NAME" value="testBook1" />
@@ -202,7 +211,7 @@
       <workItem from="1656078716788" duration="4441000" />
       <workItem from="1657072909618" duration="14000" />
       <workItem from="1657072959888" duration="9356000" />
-      <workItem from="1657153750341" duration="669000" />
+      <workItem from="1657153750341" duration="1036000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1655989128396</created>
@@ -232,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655993193386</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add Spring5">
+      <created>1657154480478</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657154480478</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -281,7 +297,8 @@
     <MESSAGE value="Create Java Core Chapter" />
     <MESSAGE value="Create Java Core ReadMe" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="add Spring5" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Spring5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">

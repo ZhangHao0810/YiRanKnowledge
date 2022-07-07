@@ -1,4 +1,4 @@
-package com.yiran.spring5;
+package com.yiran.spring5.demo;
 
 /**
  *  演示使用XML的Set方法进行属性注入。

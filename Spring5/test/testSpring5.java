@@ -1,6 +1,5 @@
-import com.yiran.spring5.Book;
-import com.yiran.spring5.User;
-import javafx.application.Application;
+import com.yiran.spring5.demo.Book;
+import com.yiran.spring5.demo.User;
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.ApplicationContext;
