@@ -14,5 +14,4 @@ public class PersonProxy {
     public void before() {
         System.out.println("Person before...");
     }
-
 }

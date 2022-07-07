@@ -2,7 +2,7 @@
 
 本笔记基于尚硅谷 spring 5超详细源码级讲解 https://www.bilibili.com/video/BV1Vf4y127N5  Spring版本为 5.x
 
-原教程视频时长 15小时， 学习周期【2022年7月6-10日】
+原教程视频时长 15小时，学习周期【2022年7月6-10日】
 
 # Spring 概念
 
@@ -692,7 +692,7 @@ Spring框架中 基于AspectJ实现AOP操作。
 
 ## AOP操作（AspectJ注解）
 
-1. 创建类，定义方法
+1. ### 创建类，定义方法
 
    ```java
    public class User {
@@ -702,7 +702,7 @@ Spring框架中 基于AspectJ实现AOP操作。
    }
    ```
 
-2. 创建增强类，写增强逻辑。
+2. ### 创建增强类，写增强逻辑。
 
    ```java
    public class UserProxy {
@@ -713,7 +713,7 @@ Spring框架中 基于AspectJ实现AOP操作。
    }
    ```
 
-3. 进行通知的配置
+3. ### 进行通知的配置
 
    (1) 在Spring配置文件中，开启注解扫描 
 
@@ -780,7 +780,7 @@ Spring框架中 基于AspectJ实现AOP操作。
        <aop:aspectj-autoproxy/>
    ```
 
-4. 配置不同类型的通知
+4. ### 配置不同类型的通知
 
    在增强类中，通知方法上添加通知类型注解，使用切入点表达式配置
 
@@ -822,7 +822,7 @@ Spring框架中 基于AspectJ实现AOP操作。
    }
    ```
 
-5. 相同的切入点进行抽取
+5. ### 相同的切入点进行抽取
 
    ```java
    //相同切入点进行抽取
@@ -838,9 +838,22 @@ Spring框架中 基于AspectJ实现AOP操作。
    }
    ```
 
-6. 有多个增强类，设置增强类的优先级
+6. ### 有多个增强类，设置增强类的优先级
 
    在增强类上面添加注解：@Order(数字类型值)，这个数字越小，优先级越高。
+
+   ```java
+   @Component
+   @Aspect
+   @Order(1)
+   public class PersonProxy {
+       // 前置通知。
+       @Before(value = "execution(* com.yiran.spring5.aop.anno.User.add(..))")
+       public void before() {
+           System.out.println("Person before...");
+       }
+   }
+   ```
 
 # JDBCTemplate
 
