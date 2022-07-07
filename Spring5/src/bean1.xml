@@ -15,7 +15,16 @@
             value:向属性中注入的值
         -->
         <property name="bname" value="深入理解JVM"></property>
-        <property name="bauthor" value="ZH"></property>
+<!--        <property name="bauthor" value="ZH"></property>-->
+        <property name="bauthor">
+            <null/><!--向属性中设置空值-->
+        </property>
+    </bean>
+
+    <!--    使用有参构造注入属性-->
+    <bean id="orders" class="com.yiran.spring5.demo.Orders">
+        <constructor-arg name="oname" value="电脑"/>
+        <constructor-arg name="address" value="China"/>
     </bean>
 
 

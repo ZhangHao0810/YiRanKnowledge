@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--    FactoryBean 的xml -->
+    <bean id="myBean" class="com.yiran.spring5.factorybean.MyBean"/>
+
+<!--    实现自动装配
+    bean标签属性 autowire，配置自动装配
+    autowire:
+        byName:注入bean的id 和 类属性名称一样。
+        byType：找跟类属性相同类型的bean，若有多个相同类型的bean则报错。
+-->
+    <bean id="emp" class="com.yiran.spring5.autowire.Emp" autowire="byName"/>
+    <bean id="dept" class="com.yiran.spring5.autowire.Dept"/>
+
+</beans>
